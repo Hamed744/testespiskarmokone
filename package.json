@@ -1,0 +1,16 @@
+{
+  "name": "huggingface-proxy",
+  "version": "1.0.0",
+  "description": "A reverse proxy for Hugging Face Spaces to bypass filtering.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0",
+    "cors": "^2.8.5"
+  }
+}
